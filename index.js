@@ -9,10 +9,10 @@ const pvp = require('mineflayer-pvp').plugin;
 // ========== КОНФИГУРАЦИЯ (СМЕНИ ЭТО, БРАТ!) ==========
 const CONFIG = {
     // Данные сервера (берутся из переменных окружения на хостинге)
-    host: process.env.SERVER_HOST || 'ваш-сервер.aternos.me',
-    port: parseInt(process.env.SERVER_PORT) || 25565,
+    host: process.env.SERVER_HOST || 'Viper-SMP.aternos.me',
+    port: parseInt(process.env.SERVER_PORT) || 62227,
     username: process.env.BOT_USERNAME || 'AFK_Helper_Bot',
-    version: process.env.MC_VERSION || '1.20.4',
+    version: process.env.MC_VERSION || '1.21.4',
     
     // Пароль для регистрации
     password: process.env.BOT_PASSWORD || 'SuperSecret123',
